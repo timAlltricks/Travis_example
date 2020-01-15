@@ -1,15 +1,4 @@
 {
-  "name": "jest-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-	"test": "jest",
-	"coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
-  },
   "jest": {
     "collectCoverageFrom": [
       "**/*.js",
@@ -17,14 +6,27 @@
       "!/node_modules/"
     ]
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "save-dev": "0.0.1-security"
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
-  "devDependencies": {
-    "coveralls": "^3.0.9",
-    "jest": "^24.9.0"
-  }
+  "name": "travis_example",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timAlltricks/Travis_example.git"
+  },
+  "author": "Tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timAlltricks/Travis_example/issues"
+  },
+  "homepage": "https://github.com/timAlltricks/Travis_example#readme"
 }
