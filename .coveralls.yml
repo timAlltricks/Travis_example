@@ -3,4 +3,4 @@ node_js:
   - '11'
 script:
   - npm run coveralls
-repo_token: gITSc524ZzXjbnHTO0eYxi0MD0iY0xBzo
+repo_token: SvQpEIaPnPCHbeDU0neLGsXGFdLSuPxj6
