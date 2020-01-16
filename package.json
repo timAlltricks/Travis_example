@@ -18,9 +18,11 @@
     "test": "test"
   },
   "dependencies": {
-    "cypress": "^3.8.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^24.9.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timAlltricks/Travis_example.git"
